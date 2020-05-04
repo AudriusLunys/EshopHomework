@@ -41,7 +41,7 @@ public class EshopMain {
                     ;
                     cart.addProductToCartByPID(getUserInput());
                     cart.printCartItems();
-                    System.out.println("***WANT MORE STUFF YOU GREEDY BASTARD ?   1->YES , 2->NO  *****");
+                    System.out.println("***WANT MORE STUFF ? GREED IS GOOD !?   1->YES , 2->NO  *****");
                 } else {
                     orderConfirmation();
                     break;
