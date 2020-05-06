@@ -34,7 +34,7 @@ public class EshopMain {
             System.out.println("*** ENTER PRODUCT ID TO ADD ITEM TO CART** ");
             cart.addProductToCartByPID(getUserInput());
             cart.printCartItems();
-            System.out.println("***WANT MORE STUFF YOU GREEDY BASTARD ?   1->YES , 2->NO  *****");
+            System.out.println("***WANT MORE STUFF ? GREED IS GOOD !?   1->YES , 2->NO  *****");
             while (scanner.hasNextInt()) {
                 if (scanner.nextInt() == 1) {
                     System.out.println("*** ENTER PRODUCT ID TO ADD ITEM TO CART** ");
@@ -57,7 +57,7 @@ public class EshopMain {
     private static void orderConfirmation() {
         Scanner s = new Scanner(System.in);
         System.out.println("**** ORDER CONFIRMATION ****");
-        System.out.println("**PLEASE ENTER SHIPPING ADRESS***");
+        System.out.println("**PLEASE ENTER SHIPPING ADDRESS***");
         s.nextLine();
         System.out.println("******************************");
         System.out.println("******ORDER CONFIRMED*********");
